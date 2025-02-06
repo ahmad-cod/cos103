@@ -1,12 +1,7 @@
 #  write a python program that finds the common elements between two lists
 
 def common_elements(list1, list2):
-  common_els = []
-
-  for el in list1:
-    if list2.count(el):
-      common_els.append(el)
-
+  common_els = [item for item in list1 if list2.count(item)]
 
   print(common_els)
 
