@@ -6,7 +6,7 @@ def invest(amount, rate, years):
 print("Enter the amount to invest: ")
 amount = float(input())
 
-print("Enter the annual interest rate (as a decimal): ")
+print("Enter the annual rate (as a decimal): ")
 rate = float(input())
 
 print("Enter the number of years: ")
